@@ -200,7 +200,15 @@
             <svg width="118" height="46" alt="CoreUI Logo">
               <use xlink:href="assets/brand/coreui.svg#full"></use>
             </svg></a>
+
+
           <ul class="header-nav d-none d-md-flex">
+
+          <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="что ищем" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Найти</button>
+</div>
+
             <li class="nav-item"><a class="nav-link" href="#"> </a></li>
           
             <li class="nav-item"><a class="nav-link" href="#">Users</a></li>
@@ -222,6 +230,7 @@
             </ol>
           </nav>
         </div>
+    
       </header>
       <div class="body flex-grow-1 px-3">
         <div class="container-lg"  id="app">
